@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div class="buttons">
+        <div class="buttons-group">
+            <h2>Animation Speed</h2>
+            <button class="btn" data-setting="speed" data-speed="40">Slow</button>
+            <button class="btn" data-setting="speed" data-speed="3">Normal</button>
+            <button class="btn" data-setting="speed" data-speed="0.5">Fast</button>
+        </div>
+        <div class="buttons-group">
+            <h2>Zakres Kolorów</h2>
+            <button class="btn" data-setting="color" data-color-rage="0">Red</button>
+            <button class="btn" data-setting="color" data-color-rage="100">Green</button>
+            <button class="btn" data-setting="color" data-color-rage="200">Blue</button>
+            <button class="btn" data-setting="color" data-color-rage="360">Normlan</button>
+        </div>
+    </div>
+    <div class="slider-box">
+        <input type="range" value="70" min="0" max="100" id="slider">
+        <p>Saturation <span class="slider-info">70</span>%</p>
+    </div>
+
+    <div class="box">
+        <!-- dodawanie kwadraty w JS -->
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
